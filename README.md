@@ -41,22 +41,3 @@
 **It grades its own agents.** A framework-free, 8-step tool-using forecasting agent, gated by the same `as_of` check, benchmarked across DeepSeek and Qwen on the *shared intersection* of answered questions and scored with Brier / LogLoss / ECE.
 
 **Ships as a dashboard.** Local no-build server on 4 flat SQLite tables (107k bars · 127k time-gated headlines · 13.7k signals), with a live factor switchboard that recomputes precision and out-of-sample hit rates in the browser — then deploys to Cloudflare Workers + D1.
-
----
-
-### also
-
-**[3d-studio](https://github.com/lumixraku/3d-studio)** &nbsp;`TypeScript`
-A 3D editor in the browser — split GLB models into parts, auto-rig skeletons, keyframe them on a timeline. React + Three.js + Zustand.
-
-**[forest-scene](https://github.com/lumixraku/forest-scene)** &nbsp;`JavaScript`
-A walkable forest-stream scene, generated entirely in code — 60k instanced grass tufts, card-foliage trees, animated foam and reflective water. No map file, no external art: the PRNG seed *is* the save file.
-
-**[web-minecraft](https://github.com/lumixraku/web-minecraft)** &nbsp;`JavaScript`
-Procedural Minecraft-style mountains and lakes in Three.js. Deterministic worlds, persistent seeds, a proper dirt-menu UI.
-
-**[raku-shader](https://github.com/lumixraku/raku-shader)** &nbsp;`GLSL`
-A lightweight Minecraft (OptiFine / Iris) shader — procedural day/night and sunset sky, Fresnel water with screen-space reflections.
-
-**[waterfall](https://github.com/lumixraku/waterfall)** &nbsp;`GLSL`
-Layered cartoon waterfall shader. Single file, opens straight in a browser.
