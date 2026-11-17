@@ -30,7 +30,7 @@
 
 [![forecast-log — cross-asset risk-on signals dashboard](./assets/forecast-ndx.png)](https://forecast.lumixraku.org)
 
-<p align="center"><sub>Python · SQLite (4 tables) · Cloudflare Workers + D1 · gated LLM agent harness &nbsp;|&nbsp; source private — walkthrough on request</sub></p>
+<p align="center"><sub>Python · SQLite (4 tables) · Cloudflare Workers + D1 · gated LLM agent harness &nbsp;|&nbsp; <a href="https://github.com/lumixraku/forecast-log">source</a></sub></p>
 
 **No look-ahead, by construction.** Every factor is standardized on a strictly recursive expanding window using data up to session *t* only. Every tool output, headline and citation passes an `as_of` gate that *raises* on post-cutoff data instead of silently clipping rows.
 
@@ -49,8 +49,14 @@
 **[3d-studio](https://github.com/lumixraku/3d-studio)** &nbsp;`TypeScript`
 A 3D editor in the browser — split GLB models into parts, auto-rig skeletons, keyframe them on a timeline. React + Three.js + Zustand.
 
+**[forest-scene](https://github.com/lumixraku/forest-scene)** &nbsp;`JavaScript`
+A walkable forest-stream scene, generated entirely in code — 60k instanced grass tufts, card-foliage trees, animated foam and reflective water. No map file, no external art: the PRNG seed *is* the save file.
+
 **[web-minecraft](https://github.com/lumixraku/web-minecraft)** &nbsp;`JavaScript`
 Procedural Minecraft-style mountains and lakes in Three.js. Deterministic worlds, persistent seeds, a proper dirt-menu UI.
+
+**[raku-shader](https://github.com/lumixraku/raku-shader)** &nbsp;`GLSL`
+A lightweight Minecraft (OptiFine / Iris) shader — procedural day/night and sunset sky, Fresnel water with screen-space reflections.
 
 **[waterfall](https://github.com/lumixraku/waterfall)** &nbsp;`GLSL`
 Layered cartoon waterfall shader. Single file, opens straight in a browser.
