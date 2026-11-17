@@ -2,7 +2,7 @@
 
 <h1>lumix</h1>
 
-<b>graphics · webgl · 3d tooling</b> &nbsp;·&nbsp; osaka, japan
+<b>graphics · webgl · 3d tooling · forecasting</b> &nbsp;·&nbsp; osaka, japan
 
 [![Email](https://img.shields.io/badge/-lumixraku@gmail.com-1B365D?style=flat-square&logo=gmail&logoColor=white)](mailto:lumixraku@gmail.com)
 [![X](https://img.shields.io/badge/-%40lumixraku-1B365D?style=flat-square&logo=x&logoColor=white)](https://x.com/lumixraku)
@@ -21,21 +21,30 @@
 
 ---
 
-### now
+<h2 align="center">forecast-log</h2>
 
-**Blender tooling** — agent-assisted add-ons that automate the boring half of a modelling pipeline: batch processing, parametric generation, asset cleanup. Private for now.
+<p align="center">
+  <b>A point-in-time forecasting system that locks a probability before the outcome is knowable, then scores itself against reality.</b><br/>
+  <a href="https://forecast.lumixraku.org"><b>forecast.lumixraku.org</b></a> &nbsp;·&nbsp; live demo, no signup
+</p>
 
-**Street-scene renderer** — turning photos of city blocks into loose watercolour sketches. Mostly a fight over brush strokes and palette.
+[![forecast-log — cross-asset risk-on signals dashboard](./assets/forecast-ndx.png)](https://forecast.lumixraku.org)
 
-**Shaders** — water, volumetric clouds, cartoon waterfalls, bioluminescent strands. The kind of thing you can't stop making.
+<p align="center"><sub>Python · SQLite (4 tables) · Cloudflare Workers + D1 · gated LLM agent harness &nbsp;|&nbsp; source private — walkthrough on request</sub></p>
 
-### before
+**No look-ahead, by construction.** Every factor is standardized on a strictly recursive expanding window using data up to session *t* only. Every tool output, headline and citation passes an `as_of` gate that *raises* on post-cutoff data instead of silently clipping rows.
 
-Canvas 2D editors, a CanvasKit-powered map engine, game prototypes on Laya / Unity / Egret. Even earlier: plain frontend.
+**Measured, not asserted.** 629 signals since 2002 — **66% precision** against 59% for a random day (**+7.0 pp** lift), **67% out-of-sample** since 2015. Re-settled on the tradable QQQ ETF, the same signal holds at +7.0 pp, with 1.4% flat-call disagreement across 18 years.
+
+**One signal, three markets.** The US close lands at 04:00 Beijing time — hours before the Shanghai open — so the unmodified US signal is mapped onto the next `000001.SS` session: 59.9% precision vs a 53.1% baseline, **+6.8 pp** over 476 signals.
+
+**It grades its own agents.** A framework-free, 8-step tool-using forecasting agent, gated by the same `as_of` check, benchmarked across DeepSeek and Qwen on the *shared intersection* of answered questions and scored with Brier / LogLoss / ECE.
+
+**Ships as a dashboard.** Local no-build server on 4 flat SQLite tables (107k bars · 127k time-gated headlines · 13.7k signals), with a live factor switchboard that recomputes precision and out-of-sample hit rates in the browser — then deploys to Cloudflare Workers + D1.
 
 ---
 
-### selected work
+### also
 
 **[3d-studio](https://github.com/lumixraku/3d-studio)** &nbsp;`TypeScript`
 A 3D editor in the browser — split GLB models into parts, auto-rig skeletons, keyframe them on a timeline. React + Three.js + Zustand.
@@ -44,13 +53,4 @@ A 3D editor in the browser — split GLB models into parts, auto-rig skeletons, 
 Procedural Minecraft-style mountains and lakes in Three.js. Deterministic worlds, persistent seeds, a proper dirt-menu UI.
 
 **[waterfall](https://github.com/lumixraku/waterfall)** &nbsp;`GLSL`
-Layered cartoon waterfall shader, after @ushadersbi. Single file, opens straight in a browser.
-
-**[3d-periodic-table](https://github.com/lumixraku/3d-periodic-table)** &nbsp;`Vue`
-An interactive 3D periodic table. Vite + Vue 3 + TresJS — spin every atom.
-
-**[NotesForGraphics](https://github.com/lumixraku/NotesForGraphics)** &nbsp;`C`
-Notes on modern graphics, from rasterization all the way to PBR. Every concept comes with an implementation.
-
-**[bookofshader](https://github.com/lumixraku/bookofshader)** &nbsp;`GLSL`
-All of The Book of Shaders, plus the experiments I bolted on top.
+Layered cartoon waterfall shader. Single file, opens straight in a browser.
