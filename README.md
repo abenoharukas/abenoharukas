@@ -2,7 +2,7 @@
 
 <h1>lumix</h1>
 
-<b>graphics · webgl · 3d tooling · forecasting</b> &nbsp;·&nbsp; osaka, japan
+<b>graphics · webgl · 3d tooling · forecasting</b> &nbsp;·&nbsp; 
 
 [![Email](https://img.shields.io/badge/-lumixraku@gmail.com-1B365D?style=flat-square&logo=gmail&logoColor=white)](mailto:lumixraku@gmail.com)
 [![X](https://img.shields.io/badge/-%40lumixraku-1B365D?style=flat-square&logo=x&logoColor=white)](https://x.com/lumixraku)
