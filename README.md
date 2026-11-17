@@ -1,27 +1,56 @@
-### Hi there 👋
+<div align="center">
 
-<!--
-**lumixraku/lumixraku** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1>lumix</h1>
 
-Here are some ideas to get you started:
+<b>graphics · webgl · 3d tooling</b> &nbsp;·&nbsp; osaka, japan
 
-- 🔭 I’m currently working on canvas
-- 🌱 I’m currently learning shader
+[![Email](https://img.shields.io/badge/-lumixraku@gmail.com-1B365D?style=flat-square&logo=gmail&logoColor=white)](mailto:lumixraku@gmail.com)
+[![X](https://img.shields.io/badge/-%40lumixraku-1B365D?style=flat-square&logo=x&logoColor=white)](https://x.com/lumixraku)
 
--->
+</div>
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,vue,nodejs,go,python,c,cpp&perline=9" alt="languages" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=threejs,blender,unity,p5js,html,css,vite,tailwind,astro&perline=9" alt="graphics and frontend" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,vim,figma,fastapi,pytorch&perline=9" alt="tooling" />
+</p>
 
+---
 
-- 🔭 I’m currently working on canvas
-- 🌱 I’m currently learning shader
+### now
 
-![Docker](https://img.shields.io/badge/-Docker-2496ED.svg?logo=docker&logoColor=white&labelColor=2496ED)
-![Python](https://img.shields.io/badge/-Python-3776AB.svg?logo=python&logoColor=white&labelColor=3776AB)
-![Golang](https://img.shields.io/badge/-Golang-00ADD8.svg?logo=go&logoColor=white&labelColor=00ADD8)
-![Node.js](https://img.shields.io/badge/-Node.js-339933.svg?logo=node.js&logoColor=white&labelColor=339933)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6.svg?logo=typescript&logoColor=white&labelColor=3178C6)
-![React](https://img.shields.io/badge/-React-61DAFB.svg?logo=react&logoColor=white&labelColor=61DAFB)
+**Blender tooling** — agent-assisted add-ons that automate the boring half of a modelling pipeline: batch processing, parametric generation, asset cleanup. Private for now.
 
+**Street-scene renderer** — turning photos of city blocks into loose watercolour sketches. Mostly a fight over brush strokes and palette.
 
+**Shaders** — water, volumetric clouds, cartoon waterfalls, bioluminescent strands. The kind of thing you can't stop making.
 
-![lumixraku's GitHub stats](https://github-readme-stats.vercel.app/api?username=lumixraku)
+### before
+
+Canvas 2D editors, a CanvasKit-powered map engine, game prototypes on Laya / Unity / Egret. Even earlier: plain frontend.
+
+---
+
+### selected work
+
+**[3d-studio](https://github.com/lumixraku/3d-studio)** &nbsp;`TypeScript`
+A 3D editor in the browser — split GLB models into parts, auto-rig skeletons, keyframe them on a timeline. React + Three.js + Zustand.
+
+**[web-minecraft](https://github.com/lumixraku/web-minecraft)** &nbsp;`JavaScript`
+Procedural Minecraft-style mountains and lakes in Three.js. Deterministic worlds, persistent seeds, a proper dirt-menu UI.
+
+**[waterfall](https://github.com/lumixraku/waterfall)** &nbsp;`GLSL`
+Layered cartoon waterfall shader, after @ushadersbi. Single file, opens straight in a browser.
+
+**[3d-periodic-table](https://github.com/lumixraku/3d-periodic-table)** &nbsp;`Vue`
+An interactive 3D periodic table. Vite + Vue 3 + TresJS — spin every atom.
+
+**[NotesForGraphics](https://github.com/lumixraku/NotesForGraphics)** &nbsp;`C`
+Notes on modern graphics, from rasterization all the way to PBR. Every concept comes with an implementation.
+
+**[bookofshader](https://github.com/lumixraku/bookofshader)** &nbsp;`GLSL`
+All of The Book of Shaders, plus the experiments I bolted on top.
