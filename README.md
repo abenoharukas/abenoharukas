@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>lumix</h1>
+<h1>harukas</h1>
 
 <b>graphics · webgl · 3d tooling · forecasting</b> &nbsp;·&nbsp; 
 
