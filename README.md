@@ -30,7 +30,7 @@
 
 [![forecast-log — cross-asset risk-on signals dashboard](./assets/forecast-ndx.png)](https://forecast.lumixraku.org)
 
-<p align="center"><sub>Python · SQLite (4 tables) · Cloudflare Workers + D1 · gated LLM agent harness &nbsp;|&nbsp; <a href="https://github.com/lumixraku/forecast-log">source</a></sub></p>
+<p align="center"><sub>Python · SQLite (4 tables) · Cloudflare Workers + D1 · gated LLM agent harness &nbsp;|&nbsp; <a href="https://github.com/abenoharukas/forecast-log">source</a></sub></p>
 
 **No look-ahead, by construction.** Every factor is standardized on a strictly recursive expanding window using data up to session *t* only. Every tool output, headline and citation passes an `as_of` gate that *raises* on post-cutoff data instead of silently clipping rows.
 
